@@ -1,0 +1,42 @@
+<printer id="printer/Printronix-LP654C">
+  <make>Printronix</make>
+  <model>LP654C</model>
+  <mechanism>
+    <color />
+    <resolution>
+      <dpi>
+        <x>1200</x>
+        <y>1200</y>
+      </dpi>
+    </resolution>
+  </mechanism>
+  <lang>
+    <pcl level="6" />
+  </lang>
+  <functionality>A</functionality>
+  <driver>pxlcolor</driver>
+  <mechanism>
+    <margins>
+      <general>
+        <unit>pt</unit>
+        <relative />
+        <left>13</left>
+        <top>13</top>
+        <right>13</right>
+        <bottom>13</bottom>
+      </general>
+      <exception PageSize="A5">
+        <relative />
+        <right>14</right>
+      </exception>
+    </margins>
+  </mechanism>
+  <comments>
+    <en>
+
+    This doesn't support all of the Printronix LP654C options, but it
+    does have the correct margins and page sizes for all media types.
+
+    </en>
+  </comments>
+</printer>

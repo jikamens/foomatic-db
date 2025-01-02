@@ -195,5 +195,8 @@
     <printer>
       <id>printer/Xerox-Phaser_3160N</id>
     </printer>
+    <printer>
+      <id>printer/Printronix-LP654C</id>
+    </printer>
   </printers>
 </driver>
